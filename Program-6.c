@@ -26,7 +26,7 @@ int main()
         /* If the current element of array is evennumber then increment evennumber count */
         if(arr[i]%2 == 0) //missing code
         {
-            evennum++;
+            ++;
         }
         else
         {
