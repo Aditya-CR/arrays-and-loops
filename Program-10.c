@@ -28,12 +28,12 @@ int main()
         
         if (arr[i] >large  )//missing code
         {
-            large= arr[i];//missing code
+            large= arr[];//missing code
         }
     }
 
     printf("The largest element of the array = %d", large);
-    printf("The smallest element of the array = %d", small);
+    printf("The smallest element of the array = %d",);
 
     return 0;
 }
