@@ -12,7 +12,7 @@ int main(){
   scanf("%d",&key);
   
     for(i=0;i<n;i++){
-  if(key==a[i]) //missing code
+  if(key==a[]) //missing code
   {
     //flag=1;
     c++;
