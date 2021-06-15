@@ -1,25 +1,21 @@
-//INPUT - 4 1 2 3 4
-//OUTPUT - Sum of elements=10
-
+//INPUT(Enter number of elements) - 4
+//INPUT(Enter the array elements) - 1 2 3 4
+//OUTPUT - 10
 
 #include <stdio.h>
- 
-#include <stdio.h>
- 
 int main()
 {
    int a[10],i,sum;
-   printf("Enter number of elements in array and the array elements");
+   printf("Enter number of elements");    
    scanf("%d", &n);
  
-  // printf("Enter %d elements\n", n);
- 
+   printf("Enter the array elements");
    for (i = 0; i < n; i++)
    {
       scanf("%d", &a[i]);
-      sum=sum+a[]; 
+      sum=sum+a[];                   //correct the code 
    }
- printf("Sum of elements=%d", );
+ printf("%d", );                     //correct the code : display the sum of elements
  
   return 0;
 }
