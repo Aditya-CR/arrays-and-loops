@@ -1,6 +1,6 @@
 //Program to find number of digits in the input
-//INPUT - 452
-//OUTPUT -3
+//INPUT (Enter any number: ) - 452
+//OUTPUT - 3
 
 #include <stdio.h>
 
@@ -21,9 +21,10 @@ int main()
 
         /* Remove last digit of 'num' */
         num /= 10;
-    } while(  != 0);
+    } while(  != 0);                   // Correct the code 
 
-    printf("Total digits: %d", );
+   //display the total digits in number 
+   printf("%d", );                    //Correct the code
 
     return 0;
 }
